@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    /* utilizado o site: "https://cssgradient.io/" para pegar os temas do gradient*/
+   background: rgb(25,33,66);
+   background: linear-gradient(67deg, rgba(25,33,66,1) 20%, rgba(13,38,70,1) 66%); 
+}
+
+.imagemCabecalho{
+    width: 72px;
+    height: 72px;
+    border-radius: 50px;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalhoNav{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalhoMenuItem{
+    font-family: 'Sarala', sans-serif;
+    color: #f6fafc;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+}
+
+.sectionConteudo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudoDivPrincipal{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.h1Conteudo{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #fc0000;
+}
+
+.h2Conteudo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #f9eaea;
+}
+
+.paragrafoConteudo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18;
+    color: #f6fafc;
+}
+
+.emojiConteudo{
+    height: 430px;
+}
+
+.sectionSubconteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 48px;
+    align-items: center;
+    justify-content: space-around;
+    left: 80px;
+}
+
+.divSubconteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.h3Subconteudo{
+    border-top: 0.5px solid #f6fafc;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #f6fafc;
+    margin-bottom: 16px;
+}
+
+.paragrafoSubconteudo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    color: #f6fafc;
+}
+
+.divImagemSubconteudo{
+    position: absolute;
+    top: 620px;
+    left: 100px;
+}
+
+.buttonDownload{
+    background-color:#e0cfcf;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #2F2325;
+}
+
+.buttonDownload:hover{
+    background-color: rgb(236, 214, 196, 0.53);
+}
+
+.linkCV{
+    
+}
+
+.emojiSubconteudo{
+    height: 308px;
+}
+
+.footer{
+    padding: 32px;
+    border-top: 0.9px solid #30374f;
+}
+
+.imagemFooter{
+    width: 250px;
+    height: 68px;
+    display: block;
+    margin: 0 auto;
+}
